@@ -3,7 +3,7 @@ export default function ActivitiesList({ data }) {
     return <div className="p-6 text-center text-gray-500">Loading activities...</div>
   }
 
-  const { metadata, categories } = data
+  const { categories } = data
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
@@ -15,9 +15,10 @@ export default function ActivitiesList({ data }) {
       </div>
 
       {/* Scale guide */}
-      <div className="bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 mb-12 flex flex-wrap gap-6 text-sm text-gray-600">
-        <span><span className="font-medium text-gray-800">Spoons:</span> 1 = very easy, 5 = high effort</span>
-        <span><span className="font-medium text-gray-800">Cost:</span> £ &lt;£20 · ££ £20–60 · £££ £60–150 · ££££ £150+/month</span>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 mb-12 text-sm text-gray-600 space-y-2">
+        <p><span className="font-medium text-gray-800">Spoons:</span> 1 = very easy &nbsp; 2 = low &nbsp; 3 = moderate &nbsp; 4 = high &nbsp; 5 = very high effort</p>
+        <p><span className="font-medium text-gray-800">Cost:</span> &nbsp; £ = under £20/month &nbsp;&nbsp; ££ = £20–60 &nbsp;&nbsp; £££ = £60–150 &nbsp;&nbsp; ££££ = £150+</p>
+        <p><span className="font-medium text-gray-800">Location:</span> near Portsmouth, UK</p>
       </div>
 
       <div className="space-y-14">
@@ -25,7 +26,7 @@ export default function ActivitiesList({ data }) {
           <section key={categoryGroup.category}>
 
             {/* Category heading */}
-            <h2 className="text-xs font-semibold uppercase tracking-widest text-sage-special mb-6">
+            <h2 className="text-xl font-semibold uppercase tracking-widest text-sage-special mb-6">
               {categoryGroup.category}
             </h2>
 
@@ -34,50 +35,32 @@ export default function ActivitiesList({ data }) {
               {categoryGroup.hobbies.map((item) => (
                 <div
                   key={item.hobby}
-                  className="bg-white border border-gray-200 rounded-2xl p-5 flex flex-col hover:shadow-md hover:border-sage-special/30 transition-all"
+                  className="rounded-lg border border-gray-200 p-4 bg-white hover:shadow-sm transition-shadow flex flex-col"
                 >
-                  {/* Tags row — sits above the title */}
+                  <h3 className="text-sm font-semibold text-gray-900 mb-2">{item.hobby}</h3>
+                  <p className="text-xs text-gray-500 mb-3 leading-relaxed flex-grow">
+                    {item.description.split('.')[0]}.
+                  </p>
                   <div className="flex flex-wrap gap-1.5 mb-3">
-                    <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">
                       {item.spoons}/5 spoons
                     </span>
-                    <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">
                       {item.cost}
                     </span>
-                    <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 capitalize">
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 capitalize">
                       {item.place}
                     </span>
-                    <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 capitalize">
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 capitalize">
                       {item.social}
                     </span>
                   </div>
-
-                  {/* Title — intentionally modest */}
-                  <h3 className="text-base font-semibold text-gray-900 mb-2">
-                    {item.hobby}
-                  </h3>
-
-                  {/* Description */}
-                  <p className="text-sm text-gray-500 leading-relaxed flex-grow mb-5">
-                    {item.description}
-                  </p>
-
-                  {/* Local spots */}
-                  <div className="pt-4 border-t border-gray-100">
-                    <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">
-                      Local spots
-                    </p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {item.local_places.map((place, index) => (
-                        <span
-                          key={index}
-                          className="text-xs text-sage-special bg-sage-special/5 border border-sage-special/10 px-2 py-0.5 rounded-full"
-                        >
-                          {place}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                  <span className="text-xs text-gray-400 mb-3">
+                    {item.local_places[0]}{item.local_places.length > 1 ? ` +${item.local_places.length - 1} more` : ''}
+                  </span>
+                  <button className="mt-auto w-full py-1.5 rounded-md text-xs font-medium bg-gray-100 text-gray-600 hover:bg-sage-special hover:text-white transition-colors border border-gray-200">
+                    View activity
+                  </button>
                 </div>
               ))}
             </div>

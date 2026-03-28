@@ -6,7 +6,7 @@ export default function Navbar() {
       
       {/* Logo */}
       <Link href="/home" className="text-xl font-semibold tracking-tight text-white">
-        100Minutes
+        100 Minutes
       </Link>
 
       {/* Links */}

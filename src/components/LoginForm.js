@@ -41,19 +41,19 @@ export default function LoginForm() {
         setCredentialsError("Incorrect username or password")
       } else {
         setCredentialsError("")
-        router.push("/home")
+        router.push("/community")
       }
     }   
   }
 
   // return single tag to export component
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white">
+    <div className="flex justify-center pt-16 bg-white">
       <div className="bg-white p-8 rounded-lg border border-gray-200 w-full max-w-sm">
         
         <h1 className="text-2xl font-bold mb-1">
             <span className="text-gray-900">100</span>
-            <span className="text-sage-special">Minutes</span>
+            <span className="text-sage-special"> Minutes</span>
         </h1>
         <p className="text-sm text-gray-500 mb-6">Sign in to your account</p>
 
