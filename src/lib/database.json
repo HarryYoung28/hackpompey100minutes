@@ -1,0 +1,592 @@
+{
+  "metadata": {
+    "version": "1.2",
+    "location_context": "Portsmouth, UK",
+    "spoons_scale": "1 (very easy / low energy) to 5 (high effort / high energy)",
+    "cost_scale": "£ = under £20/month, ££ = £20–£60/month, £££ = £60–£150/month, ££££ = £150+/month"
+  },
+  "categories": [
+    {
+      "category": "Physical and Sports",
+      "hobbies": [
+        {
+          "hobby": "Water sports",
+          "category": "Physical and Sports",
+          "spoons": 4,
+          "cost": "£££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Water sports encompass a wide range of activities including kayaking, paddleboarding, windsurfing, and sailing. They provide a full-body cardiovascular workout while building core strength, balance, and coordination. Being on the water has well-documented mental health benefits, reducing stress and improving mood. Water sports also foster a strong sense of community and can be enjoyed solo or in groups.",
+          "local_places": [
+            "Mountbatten Centre",
+            "Southsea Watersports",
+            "Portsmouth Harbour",
+            "Eastney Beach"
+          ]
+        },
+        {
+          "hobby": "Climbing and bouldering",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "both",
+          "description": "Climbing and bouldering develop upper body and grip strength, flexibility, and spatial problem-solving. Often described as physical chess, route-setting challenges your brain as much as your body. It's highly social at indoor walls, with a welcoming community across all skill levels. Research shows climbing is effective for managing anxiety and building self-confidence through incremental challenge.",
+          "local_places": [
+            "Highball Climbing, Cosham"
+          ]
+        },
+        {
+          "hobby": "Cycling and mountain biking",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Cycling is one of the most accessible and low-impact cardiovascular exercises available. It builds leg strength, improves heart health, and can easily be scaled from gentle leisure rides to intense trail riding. Mountain biking adds a technical challenge requiring balance and fast decision-making. Both forms offer significant mental health benefits through time outdoors and the satisfaction of covering ground under your own power.",
+          "local_places": [
+            "Hayling Island Greenway",
+            "Queen Elizabeth Country Park",
+            "Southsea Seafront Cycle Path"
+          ]
+        },
+        {
+          "hobby": "Skateboarding and skating",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "£",
+          "social": "both",
+          "intent":"learn something",
+          "place": "outdoor",
+          "description": "Skateboarding and skating build balance, coordination, and spatial awareness. Progression is deeply self-directed - you set your own goals and learn at your own pace, which makes it especially rewarding. The skate community is known for being inclusive and supportive. It's also a creative hobby, with trick selection and style being highly personal. Roller skating in particular has seen a huge resurgence as a joyful, low-barrier activity.",
+          "local_places": [
+            "Southsea Skatepark",
+            "Southsea Seafront Promenade"
+          ]
+        },
+        {
+          "hobby": "Archery",
+          "category": "Physical and Sports",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "both",
+          "description": "Archery develops focus, breath control, and fine motor precision. It's a surprisingly meditative sport - the need to be fully present with each shot makes it excellent for managing anxiety and improving concentration. It's physically accessible to a wide range of people, including those with limited mobility, and can be practised indoors year-round. The satisfaction of consistent accuracy improving over time is deeply motivating.",
+          "local_places": [
+            "Portsmouth Archers, Great Salterns Recreation Ground"
+          ]
+        },
+        {
+          "hobby": "Martial arts",
+          "category": "Physical and Sports",
+          "spoons": 4,
+          "cost": "££",
+          "social": "group",
+          "intent":"learn something",
+          "place": "indoor",
+          "description": "Martial arts training builds fitness, discipline, self-defence skills, and mental resilience. Styles range from striking arts like karate and kickboxing to grappling arts like judo and Brazilian jiu-jitsu. Regular training improves cardiovascular fitness, flexibility, coordination, and reaction time. Martial arts also provide a strong sense of community and structured progression through belts and grades, which many people find highly motivating.",
+          "local_places": [
+            "Portsmouth Judo Club",
+            "Combat Sports Portsmouth",
+            "Southsea gyms"
+          ]
+        },
+        {
+          "hobby": "Yoga and pilates",
+          "category": "Physical and Sports",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "relax",
+          "place": "both",
+          "description": "Yoga and pilates improve flexibility, core strength, balance, and posture. Both practices emphasise the connection between breath and movement, making them powerful tools for stress reduction and mindfulness. Yoga has a broad range of styles from gentle restorative practice to vigorous vinyasa flow, making it adaptable for almost any fitness level or energy capacity. Regular practice has been linked to improved sleep, reduced anxiety, and better chronic pain management.",
+          "local_places": [
+            "Southsea Common",
+            "Various studios in Southsea",
+            "University of Portsmouth Sports Centre"
+          ]
+        },
+        {
+          "hobby": "Running and orienteering",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "£",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Running is one of the most accessible and well-researched forms of exercise, with strong evidence for improving cardiovascular health, mental wellbeing, and sleep quality. Orienteering adds a navigation and problem-solving challenge, turning a run into a mental workout as well. Both activities can be deeply social or entirely solitary depending on preference. Progress is highly trackable, which suits goal-oriented personalities.",
+          "local_places": [
+            "Great Salterns Parkrun",
+            "Portsmouth Orienteering Club",
+            "Southsea Seafront",
+            "Farlington Marshes"
+          ]
+        },
+        {
+          "hobby": "Horse riding",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "££££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Horse riding develops core strength, balance, and body awareness in ways few other activities match. The bond formed with a horse is unique and profoundly beneficial for emotional wellbeing - equine-assisted therapy is a well-established field. Riding demands presence and empathy, as horses respond to your emotional state. It's also an outdoor activity with strong community and competition structures if desired.",
+          "local_places": [
+            "Havant area riding schools",
+            "South Downs equestrian centres (30 min drive)"
+          ]
+        },
+        {
+          "hobby": "Fishing",
+          "category": "Physical and Sports",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Fishing is a deeply contemplative hobby that encourages patience, mindfulness, and time outdoors. It has well-documented benefits for mental health, particularly for managing stress and anxiety. Sea fishing requires knowledge of tides, weather, and marine ecology, making it an intellectually engaging pursuit. It's also highly social when practised with others, and can yield a direct connection to food through the catch.",
+          "local_places": [
+            "Southsea Pier",
+            "Eastney Beach",
+            "Old Portsmouth Ferry Gardens",
+            "The Angling Centre, Copnor"
+          ]
+        },
+        {
+          "hobby": "Golf",
+          "category": "Physical and Sports",
+          "spoons": 2,
+          "cost": "£££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Golf combines gentle physical activity - most rounds involve several miles of walking - with precision, strategy, and mental discipline. It's renowned as a social sport with a strong community around clubs and courses. The handicap system means players of all abilities can compete meaningfully together. Time spent on a course is also valuable green-space outdoor time, which benefits mood and cognition.",
+          "local_places": [
+            "Great Salterns Golf Course, Milton",
+            "Hayling Golf Club",
+            "Portsmouth Golf Centre"
+          ]
+        },
+        {
+          "hobby": "Paddleboarding and kayaking",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Paddleboarding and kayaking build core stability, upper body strength, and balance. Being on the water has strong therapeutic benefits - the combination of gentle physical effort, fresh air, and natural surroundings is excellent for mental health. Paddleboarding in particular has grown rapidly in popularity due to its accessibility: it can be learned in a single session and enjoyed at a very relaxed pace.",
+          "local_places": [
+            "Eastney Beach",
+            "Langstone Harbour",
+            "Southsea Watersports",
+            "Portsmouth Harbour"
+          ]
+        },
+        {
+          "hobby": "Aerial and circus skills",
+          "category": "Physical and Sports",
+          "spoons": 4,
+          "cost": "££",
+          "social": "group",
+          "intent":"learn something",
+          "place": "indoor",
+          "description": "Aerial arts including silks, hoop, and trapeze build extraordinary upper body and core strength, flexibility, and body awareness. They require overcoming fear of height and trusting your body, which builds confidence and self-efficacy. The circus arts community is known for being joyful, inclusive, and non-competitive. Progress can be rapid and the visual spectacle of the skills makes practice feel genuinely exciting.",
+          "local_places": [
+            "Portsmouth Gymnastic Club",
+            "Guildhall Studios"
+          ]
+        },
+        {
+          "hobby": "Fencing",
+          "category": "Physical and Sports",
+          "spoons": 3,
+          "cost": "££",
+          "social": "group",
+          "intent":"learn something",
+          "place": "indoor",
+          "description": "Fencing is often called physical chess - it demands rapid tactical thinking, reflexes, and reading your opponent. It builds cardiovascular fitness, footwork, coordination, and explosive speed. The three disciplines - foil, épée, and sabre - each have distinct rules and strategies. Clubs are typically welcoming of complete beginners with equipment provided to start.",
+          "local_places": [
+            "Portsmouth Fencing Club",
+            "University of Portsmouth Sports Centre"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Outdoor and Nature",
+      "hobbies": [
+        {
+          "hobby": "Hiking and wild camping",
+          "category": "Outdoor and Nature",
+          "spoons": 3,
+          "cost": "£",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Hiking improves cardiovascular fitness, leg strength, and endurance while providing sustained exposure to natural environments - one of the most reliable mood-boosting activities available. Wild camping extends this into multi-day self-sufficiency, building practical skills including navigation, weather reading, and camp craft. Research consistently shows that time in nature reduces cortisol levels and improves mental clarity.",
+          "local_places": [
+            "Queen Elizabeth Country Park",
+            "Butser Hill",
+            "Hayling Billy Trail",
+            "South Downs Way"
+          ]
+        },
+        {
+          "hobby": "Foraging",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "£",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Foraging connects you directly to natural cycles and seasonal change, building knowledge of plants, fungi, and ecosystems. It encourages slow, attentive observation of the environment - a form of active mindfulness. Finding and preparing wild food is deeply satisfying and carries a sense of self-reliance. Starting with well-known, easily identified species like elderflower, blackberries, and nettles keeps it safe and accessible.",
+          "local_places": [
+            "Farlington Marshes",
+            "Langstone Harbour",
+            "Havant Thicket",
+            "Hampshire Wildlife Trust events"
+          ]
+        },
+        {
+          "hobby": "Birdwatching",
+          "category": "Outdoor and Nature",
+          "spoons": 1,
+          "cost": "£",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Birdwatching trains your attention and patience while deepening your understanding of the natural world. It can be practised almost anywhere - from a garden window to a dedicated nature reserve - making it uniquely accessible. The cumulative knowledge built over years of observation is genuinely absorbing, and the birdwatching community is active and welcoming. Studies link regular contact with wildlife to significantly improved mental wellbeing.",
+          "local_places": [
+            "Farlington Marshes RSPB",
+            "Langstone Harbour",
+            "Chichester Harbour",
+            "Hilsea Lines"
+          ]
+        },
+        {
+          "hobby": "Gardening and allotment",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "£",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Gardening is one of the most thoroughly evidence-backed hobbies for physical and mental health. It provides moderate physical activity, exposure to beneficial soil microbiomes, and the profound satisfaction of growing food or cultivating beauty. Allotment gardening has a particularly strong community dimension, with neighbouring plot holders sharing knowledge, seeds, and surplus produce. It also builds patience and attentiveness to seasonal rhythms.",
+          "local_places": [
+            "Bransbury Park Allotments",
+            "Milton Allotments",
+            "Hilsea Allotments",
+            "Portsmouth allotment sites"
+          ]
+        },
+        {
+          "hobby": "Stargazing and astronomy",
+          "category": "Outdoor and Nature",
+          "spoons": 1,
+          "cost": "£",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Astronomy cultivates a profound sense of perspective and wonder. Learning the night sky - constellations, planets, and deep-sky objects - is a gradual and deeply satisfying process. It encourages patience and close observation. Joining an astronomy club gives access to telescopes, expertise, and shared excitement at celestial events. The hobby scales from naked-eye stargazing to astrophotography and serious telescope work.",
+          "local_places": [
+            "Butser Hill Dark Sky area",
+            "Portsmouth Astronomy Society",
+            "Queen Elizabeth Country Park"
+          ]
+        },
+        {
+          "hobby": "Photography (outdoors)",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Outdoor photography trains you to see the world differently - light, composition, and timing become things you actively think about. It encourages exploration and time outdoors, and the creative satisfaction of capturing a strong image is immediate and shareable. Photography has a wide skill ceiling, from smartphone snaps to professional landscape work, and gear can scale with your interest and budget.",
+          "local_places": [
+            "Spinnaker Tower",
+            "Old Portsmouth Round Tower",
+            "Southsea Seafront",
+            "Portsmouth Historic Dockyard",
+            "Gosport Ferry"
+          ]
+        },
+        {
+          "hobby": "Drone flying",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "£££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "outdoor",
+          "description": "Flying drones develops spatial awareness, hand-eye coordination, and an understanding of airspace regulations. For creative people, drone photography and videography open entirely new visual perspectives impossible from the ground. It requires obtaining a CAA flyer ID and operator ID, which gives the hobby a satisfying structure of rules and responsibility. The footage achievable with modern consumer drones is remarkable even for beginners.",
+          "local_places": [
+            "Farlington open land",
+            "Rural areas near Havant",
+            "Check NATS drone safety map before flying"
+          ]
+        },
+        {
+          "hobby": "Kite flying and landboarding",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "outdoor",
+          "description": "Kite flying is a joyful, low-barrier hobby with a surprisingly high skill ceiling. Power kites require real skill to control and can generate considerable pull, enabling landboarding - being towed across open ground on a board. It builds spatial awareness, coordination, and a keen sensitivity to wind conditions. On a simple level, flying a kite is a deeply relaxing outdoor activity with a long and colourful history.",
+          "local_places": [
+            "Southsea Common",
+            "Southsea Seafront"
+          ]
+        },
+        {
+          "hobby": "Metal detecting",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Metal detecting combines gentle outdoor exercise with the genuine thrill of discovery. Finds range from modern coins to genuinely ancient artefacts, and significant finds should be reported through the Portable Antiquities Scheme. It builds knowledge of local history, geology, and land use over time. The community is welcoming and sociable, with group searches organised by clubs across the country.",
+          "local_places": [
+            "Eastney Beach",
+            "Portchester Castle area (with permission)",
+            "Portsmouth Metal Detecting Club"
+          ]
+        },
+        {
+          "hobby": "Geocaching",
+          "category": "Outdoor and Nature",
+          "spoons": 2,
+          "cost": "£",
+          "social": "both",
+          "intent": "relax",
+          "place": "outdoor",
+          "description": "Geocaching turns the world into a treasure hunt, using GPS to find hidden containers placed by other participants. It encourages exploration of places you'd never otherwise visit and rewards observation and lateral thinking. There are millions of caches worldwide across wildly varying difficulty levels. It's excellent for getting outdoors more often and can be done entirely for free via the basic app.",
+          "local_places": [
+            "Hilsea Lines",
+            "Farlington Marshes",
+            "Southsea Seafront",
+            "Old Portsmouth"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Making and Crafting",
+      "hobbies": [
+        {
+          "hobby": "Woodworking",
+          "category": "Making and Crafting",
+          "spoons": 3,
+          "cost": "£££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "both",
+          "description": "Woodworking builds practical skills, spatial reasoning, and hand-eye coordination. Creating tangible, useful objects from raw materials provides a deep sense of satisfaction and accomplishment that is hard to replicate in digital hobbies. It demands patience and planning, which many practitioners find meditative. The skill range is enormous - from basic joinery to fine furniture making - and tools can be acquired gradually over time.",
+          "local_places": [
+            "Portsmouth MakerSpace community groups",
+            "Wickham area workshops"
+          ]
+        },
+        {
+          "hobby": "Ceramics and pottery",
+          "category": "Making and Crafting",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Working with clay is a tactile, absorbing hobby with strong therapeutic qualities. The physical engagement of throwing on a wheel or hand-building requires full presence - it's difficult to think about anything else, making it an excellent mindfulness practice. Ceramics builds patience, spatial thinking, and an appreciation for material properties. The functional beauty of making objects you can actually use adds to its satisfaction.",
+          "local_places": [
+            "The Clay Studio, Portsmouth",
+            "Southsea community arts spaces"
+          ]
+        },
+        {
+          "hobby": "Leatherworking",
+          "category": "Making and Crafting",
+          "spoons": 2,
+          "cost": "££",
+          "social": "solo",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Leatherworking is a traditional craft producing durable, beautiful objects - wallets, belts, bags, and journals. It develops precision cutting, stitching, and finishing skills. Leather is a forgiving material to learn on, and projects are often small enough to complete in a single session. The hobby has a strong online community, and the outputs make deeply personal gifts.",
+          "local_places": [
+            "Aspex Gallery events",
+            "Portsmouth craft fairs",
+            "DIY from home"
+          ]
+        },
+        {
+          "hobby": "Blacksmithing and metalwork",
+          "category": "Making and Crafting",
+          "spoons": 4,
+          "cost": "£££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "indoor",
+          "description": "Blacksmithing is one of humanity's oldest crafts and one of its most viscerally satisfying. Working hot metal with hammer and anvil builds strength, timing, and an intuitive understanding of materials under heat. It develops patience and precision. The resurgence of interest in heritage crafts has produced a growing community of hobbyist smiths, and introductory courses make the craft accessible without needing your own forge.",
+          "local_places": [
+            "Rural Hampshire workshops (30-45 min drive)",
+            "Queen Elizabeth Country Park occasional events"
+          ]
+        },
+        {
+          "hobby": "Jewellery making",
+          "category": "Making and Crafting",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Jewellery making spans a wide range of techniques - wirework, beading, resin casting, and silversmithing - allowing practitioners to find their own niche. It develops fine motor skills, attention to detail, and creative design thinking. The outputs are wearable and giftable, which adds to motivation. It's a hobby that scales well from kitchen-table basics to a professional studio practice.",
+          "local_places": [
+            "Aspex Gallery",
+            "Portsmouth Adult Education Centre",
+            "Hobbycraft, Fratton"
+          ]
+        },
+        {
+          "hobby": "Screen printing and dyeing",
+          "category": "Making and Crafting",
+          "spoons": 3,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Screen printing and fabric dyeing combine graphic design thinking with hands-on printmaking. Creating repeatable designs on fabric or paper is deeply satisfying, and the process of preparing screens, mixing inks, and pulling prints requires focused, methodical work. Natural dyeing with plants and botanical materials adds an additional layer of connection to the craft. Both skills produce functional, beautiful outputs.",
+          "local_places": [
+            "Portsmouth arts studio spaces",
+            "Southsea community workshops",
+            "New Theatre Royal events"
+          ]
+        },
+        {
+          "hobby": "Electronics and soldering",
+          "category": "Making and Crafting",
+          "spoons": 3,
+          "cost": "££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "indoor",
+          "description": "Electronics as a hobby develops practical engineering skills, logical thinking, and comfort with hardware. Soldering is a meditative physical skill, and completing a working circuit is immediately rewarding. The maker movement has made entry-level electronics extremely accessible - Arduino and Raspberry Pi projects give beginners structured starting points with excellent community support and a natural crossover into coding and IoT.",
+          "local_places": [
+            "Portsmouth MakerSpace",
+            "University of Portsmouth community events",
+            "Online component suppliers"
+          ]
+        },
+        {
+          "hobby": "Knitting and weaving",
+          "category": "Making and Crafting",
+          "spoons": 1,
+          "cost": "£",
+          "social": "both",
+          "intent": "relax",
+          "place": "indoor",
+          "description": "Knitting and weaving are repetitive, rhythmic crafts with a well-documented calming effect on the nervous system - often compared to meditation. They produce tangible, useful objects and have an enormous creative ceiling in terms of pattern complexity and colour work. Both crafts have thriving online and in-person communities. Knitting in particular is enjoying a major cultural resurgence with younger generations.",
+          "local_places": [
+            "Various cafés in Southsea for knit-and-natter groups",
+            "John Lewis, Commercial Road"
+          ]
+        },
+        {
+          "hobby": "Candle and soap making",
+          "category": "Making and Crafting",
+          "spoons": 1,
+          "cost": "£",
+          "social": "solo",
+          "intent": "relax",
+          "place": "indoor",
+          "description": "Candle and soap making are highly accessible home crafts with low startup costs and quick, satisfying results. They involve working with fragrance, colour, and material chemistry in a creative and sensory way. The outputs make excellent gifts and can be sold at craft markets. Both crafts offer scope for artistic expression and experimentation with natural ingredients, essential oils, and botanical additions.",
+          "local_places": [
+            "Hobbycraft, Fratton",
+            "Gunwharf Quays craft markets",
+            "Southsea Farmers' Market"
+          ]
+        },
+        {
+          "hobby": "Model making",
+          "category": "Making and Crafting",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Model making develops fine motor skills, patience, and attention to detail. Whether building scale plastic kits, scratch-building from card and wire, or painting miniatures for wargames, the focus required is deeply absorbing. The community around scale modelling and miniature wargaming is welcoming and social. Finished pieces provide a permanent record of the skill and effort invested.",
+          "local_places": [
+            "Portsmouth Model Boat Club, Canoe Lake",
+            "Warhammer, Commercial Road",
+            "Independent hobby shops"
+          ]
+        },
+        {
+          "hobby": "Bookbinding",
+          "category": "Making and Crafting",
+          "spoons": 2,
+          "cost": "£",
+          "social": "both",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Bookbinding is a quiet, precise craft that produces beautiful and functional objects. Learning traditional binding structures - coptic, Japanese stab, long stitch - gives an appreciation for the physicality of books and how they're constructed. It's a highly meditative process with modest tool requirements and low costs. Handmade books and journals also make deeply personal gifts.",
+          "local_places": [
+            "Portsmouth Central Library, Guildhall Square",
+            "Community arts spaces"
+          ]
+        },
+        {
+          "hobby": "Glassblowing",
+          "category": "Making and Crafting",
+          "spoons": 4,
+          "cost": "££££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "indoor",
+          "description": "Glassblowing is one of the most dramatic and physically demanding crafts. Working with molten glass at temperatures exceeding 1000°C requires coordination, quick decision-making, and a deep sensitivity to the material's behaviour. Even a single introductory session produces results that feel genuinely magical. For those who pursue it seriously, glassblowing offers an extraordinary combination of artistic expression and physical craft mastery.",
+          "local_places": [
+            "Hovercraft to Isle of Wight",
+            "Cowes glass studios (IOW)",
+            "New Forest glass studios (45 min drive)"
+          ]
+        },
+        {
+          "hobby": "3D printing and laser cutting",
+          "category": "Making and Crafting",
+          "spoons": 3,
+          "cost": "£££",
+          "social": "both",
+          "intent":"learn something",
+          "place": "both",
+          "description": "3D printing and laser cutting bridge digital design and physical fabrication. They reward knowledge of CAD software and design thinking, turning digital models into real objects you can hold. Both skills have enormous practical utility - designing replacement parts, custom tools, personalised gifts, or artistic pieces. The maker community around these technologies is highly collaborative and open-source in ethos.",
+          "local_places": [
+            "University of Portsmouth FabLab access",
+            "Portsmouth MakerSpace",
+            "Local print bureaux"
+          ]
+        },
+        {
+          "hobby": "Sewing and dressmaking",
+          "category": "Making and Crafting",
+          "spoons": 2,
+          "cost": "££",
+          "social": "both",
+          "intent": "learn something",
+          "place": "indoor",
+          "description": "Sewing and dressmaking develop spatial thinking, precision, and a deep understanding of how garments are constructed. Making your own clothes gives complete control over fit and fabric choice - a meaningful alternative to fast fashion. The hobby builds practical skills that are genuinely useful throughout life. The sewing community is extremely active online, with an abundance of free patterns and tutorials to learn from.",
+          "local_places": [
+            "Southsea sewing studios",
+            "Charlotte Street Market",
+            "Portsmouth Cosplay community events"
+          ]
+        }
+      ]
+    }
+  ]
+}
