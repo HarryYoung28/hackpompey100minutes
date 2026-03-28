@@ -14,7 +14,7 @@ const ACTIVITY = {
   costNote: 'Under £20/month',
   social: 'both',
   place: 'Indoor',
-  heroImage: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800&q=80',
+  heroImage: 'https://images.unsplash.com/photo-1513890333407-6f85205e8ef2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   description:
     'Knitting and weaving are repetitive, rhythmic crafts with a well-documented calming effect on the nervous system, often compared to meditation. They produce tangible, useful objects and have an enormous creative ceiling in terms of pattern complexity and colour work. Both crafts have thriving online and in-person communities, and knitting in particular is enjoying a major cultural resurgence with younger generations.',
   highlights: [
