@@ -2,9 +2,6 @@
 
 import { useState } from 'react'
 
-/* ════════════════════════════════════════════════════════════
-   HARDCODED DATA — KNITTING & WEAVING
-   ════════════════════════════════════════════════════════════ */
 
 const ACTIVITY = {
   name: 'Knitting & Weaving',
@@ -24,7 +21,7 @@ const ACTIVITY = {
     'Produces wearable, giftable items',
   ],
   localPlaces: [
-    { name: 'Various cafes in Southsea', detail: 'Knit-and-natter groups' },
+    { name: 'Seeded', detail: 'Craft Shop in Portsmouth' },
     { name: 'John Lewis, Commercial Road', detail: 'Yarn and supplies' },
     { name: 'The Wool Shop, Fareham', detail: '15 min drive, specialist yarns' },
     { name: 'Ravelry Online Community', detail: 'Free patterns and forums' },
@@ -34,17 +31,17 @@ const ACTIVITY = {
       {
         name: 'Bamboo Needles Set',
         description: 'Sizes 4mm to 6mm. Smooth, lightweight, and kind on hands.',
-        image: 'https://images.unsplash.com/photo-1585435465945-bef5a93f8849?w=400&q=80',
+        image: 'https://images.unsplash.com/photo-1612016369369-cb4c9f480d70?q=80&w=1734&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
       {
         name: 'Worsted Weight Yarn',
         description: 'Medium weight acrylic-wool blend. Forgiving for beginners.',
-        image: 'https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=400&q=80',
+        image: 'https://images.unsplash.com/photo-1550376026-7375b92bb318?q=80&w=816&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
       {
         name: 'Stitch Markers & Scissors',
         description: 'Locking markers, tapestry needle, and small sharp scissors.',
-        image: 'https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=400&q=80',
+        image: 'https://images.unsplash.com/photo-1682953370801-ff90204e8520?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       },
     ],
     estimatedCost: 'approx. £15 to £25',

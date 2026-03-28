@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function ActivitiesList({ data }) {
   if (!data || !data.categories) {
     return <div className="p-6 text-center text-gray-500">Loading activities...</div>
@@ -58,9 +60,12 @@ export default function ActivitiesList({ data }) {
                   <span className="text-xs text-gray-400 mb-3">
                     {item.local_places[0]}{item.local_places.length > 1 ? ` +${item.local_places.length - 1} more` : ''}
                   </span>
-                  <button className="mt-auto w-full py-1.5 rounded-md text-xs font-medium bg-gray-100 text-gray-600 hover:bg-sage-special hover:text-white transition-colors border border-gray-200">
-                    View activity
-                  </button>
+                  <Link
+                    href={`/activities/${item.hobby.toLowerCase().replace(/\s+/g, '-')}`}
+                    className="mt-auto w-full py-1.5 rounded-md text-xs font-medium bg-gray-100 text-gray-600 hover:bg-sage-special hover:text-white transition-colors border border-gray-200 text-center"
+                    >
+                      View activity
+                  </Link>
                 </div>
               ))}
             </div>
